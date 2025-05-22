@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,23,47,1) 44%, rgba(2,14,59,1) 100%);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e5e8e8;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+}
+
+.friends {
+    flex-grow: 6;
+    width: 30vw;
+}
+
+.add_friend {
+    flex-grow: 4;
+    width: 30vw;
+}
+
+.friends, .add_friend {
+    background-color: #161616;
+    border: 1px solid #000401;
+    border-radius: 10px;
+    margin: 25px;
+    height: 85vh;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.friends_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: #001141;
+    border: 1px solid #000401;
+    border-left: none;
+    border-right: none;
+}
+
+.requests {
+    border-bottom: 1px solid black;
+}
+
+.form {
+    margin-left: 15px;
+}
+
+.request_button {
+    display: flex;
+}
+
+a{
+    display: inline-block;
+    background-color: #005bea;
+    color: #e5e8e8;
+    border-radius: 10px;
+    width: 150px;
+    margin: 5px;
+    border-style: solid;
+    border-color: #000401;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0000ff;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #000401;
+    border-radius: 4px;
+    outline: none;
+}
+
+h3 {
+    margin-left: 10px;
+    color: brown;
+}
+
+.a_button1, .a_button2, button, .special {
+    background-color: #001d6c;
+    color: #edf5ff;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.special {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(208, 226, 255, 0.5);
+    width: 150px;
+}
+
+button {
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.a_button1:hover, .a_button2:hover, button:hover, .special:hover {
+    background-color: #001141;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+input:hover,
+input:focus {
+    border-color: #0000ff;
+}

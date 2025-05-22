@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,23,47,1) 44%, rgba(2,14,59,1) 100%);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #edf5ff;
+}
+
+div {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 60%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #edf5ff;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-collapse: collapse;
+    border-radius: 10px;
+    table-layout: fixed;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(208, 226, 255, 0.5);
+}
+
+
+th:nth-child(1), td:nth-child(1) {
+    width: 20%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 40%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 40%;
+}
+
+th {
+    height: 35px;
+    background-color: #001d6c;
+}
+
+td {
+    height: 25px;
+    background-color: #001141;
+}
+
+tr {
+    border-bottom: 1px solid #000401;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+
+th, td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.button {
+    position: absolute;
+    bottom: -20%;
+    right: 20%;
+    margin: 10px;
+    display: inline-block;
+    background-color: #001d6c;
+    color: #edf5ff;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    box-shadow: 0 0 10px rgba(208, 226, 255, 0.5)
+}
+
+.button:hover {
+    background-color: #001141;
+}
+
+.arrow {
+    position: absolute;
+    top: 7%;
+    right: 17%;
+}
+
+i {
+    color: #e5e8e8;
+}
+
+i:hover {
+    color: #000401;
+    content: "\f178";
+    font-size: 25px;
+}
